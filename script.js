@@ -14,6 +14,7 @@ function skaBandPlease() {
 window.onload = function() {
   //What should we do when the page first loads?
   skaBandPlease();
+  document.getElementById("I need a 90s SKA Band Name!").addEventListener("click", skaBandPlease());         
 };
 
-document.getElementById("I need a 90s SKA Band Name!").addEventListener("click", skaBandPlease);
+
