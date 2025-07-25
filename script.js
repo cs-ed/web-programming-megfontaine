@@ -17,11 +17,6 @@ function skaBandPlease() {
   document.getElementById("band_name").innerHTML = name;
 };
 
-function horiscope() {
-           
-           
-};
-
 window.onload = function() {
   //What should we do when the page first loads?
   skaBandPlease();
@@ -30,8 +25,6 @@ window.onload = function() {
 document.getElementById("I need a 90s SKA Band Name!").addEventListener("click", skaBandPlease);
 
 document.getElementById("enter_sign").addEventListener("click", function()) {
-           const goal_block = document.createElement("p");
-           goal_block.className = "outcome_block";
            let user_sign = document.getElementById("sign").value.toLowerCase();
            let horiscope;
            if (user_sign === "capricorn") { horiscope = "You're stubborn as a goat";};
@@ -47,7 +40,7 @@ document.getElementById("enter_sign").addEventListener("click", function()) {
            else if (user_sign === "scorpio") { horiscope = "Always check your boots before you put 'em on";};
            else if (user_sign === "saggitarius") { horiscope = "Bullseye";};
            else { horiscope = "Whatever you say...";};
-           goal_block.innerHTML = document.getElementByID(horiscope).value;
-           //document.getElementById("your_horiscope").innerHTML = horiscope;
+           document.getElementById("your_horiscope").innerHTML = horiscope;
+};
 
 
