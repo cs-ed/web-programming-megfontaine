@@ -29,7 +29,7 @@ function horiscope() {
            else if (user_sign == "cancer") { horiscope = "Why so crabby?";}
            else if (user_sign == "leo") { horiscope = "You ain't gotta lion to kick it";}
            else if (user_sign == "virgo") { horiscope = "Heck of a gal";}
-           else if (user_sign == "libra") { horiscope = "Keep it level";}
+           else if (user_sign == "libra") { horiscope = "Keep it on the level";}
            else if (user_sign == "scorpio") { horiscope = "Always check your boots before you put 'em on";}
            else if (user_sign == "saggitarius") { horiscope = "Bullseye";}
            else { horiscope = "Whatever you say...";}
