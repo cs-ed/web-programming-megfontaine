@@ -44,4 +44,6 @@ window.onload = function() {
 
 document.getElementById("I need a 90s SKA Band Name!").addEventListener("click", skaBandPlease);
 
+document.getElementById("enter_sign").addEventListener("click", horiscope);
+
 
