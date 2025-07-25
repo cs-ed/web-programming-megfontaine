@@ -2,11 +2,19 @@ const verbs = ["skankin", "rankin", "vibin", "jumpin", "leapin", "rockin", "slee
            "fightin", "yellin", "smellin", "skippin", "screechin"];
 const nouns = ["pickle", "weasel", "zebras", "muskrats", "walruses", "puppies", "kittens", "lions", "tigers", "parrots",
            "giblets", "skunks", "bunnies", "gummies", "dolphins", "grannies", "lads", "lassies", "lizards"];
+prev_names = [];
 
 function skaBandPlease() {
   let randIndex1 = Math.floor(Math.random() * verbs.length);
   let randIndex2 = Math.floor(Math.random() * nouns.length);
   let name = verbs[randIndex1] + " " + nouns[randIndex2];
+  while (prev_names.includes(name)) {
+           randIndex1 = Math.floor(Math.random() * verbs.length);
+           randIndex2 = Math.floor(Math.random() * nouns.length);
+           name = verbs[randIndex1] + " " + nouns[randIndex2];
+  };
+  prev_names.push(name);
+             
   document.getElementById("band_name").innerHTML = name;
 };
 
