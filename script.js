@@ -12,7 +12,7 @@ function skaBandPlease() {
            randIndex1 = Math.floor(Math.random() * verbs.length);
            randIndex2 = Math.floor(Math.random() * nouns.length);
            name = verbs[randIndex1] + " " + nouns[randIndex2];
-  };
+  }
   prev_names.push(name);        
   document.getElementById("band_name").innerHTML = name;
 };
