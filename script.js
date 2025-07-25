@@ -17,14 +17,7 @@ function skaBandPlease() {
   document.getElementById("band_name").innerHTML = name;
 };
 
-window.onload = function() {
-  //What should we do when the page first loads?
-  skaBandPlease();
-};
-
-document.getElementById("I need a 90s SKA Band Name!").addEventListener("click", skaBandPlease);
-
-document.getElementById("enter_sign").addEventListener("click", function()) {
+function horiscope() {
            let user_sign = document.getElementById("sign").value.toLowerCase();
            let horiscope;
            if (user_sign === "capricorn") { horiscope = "You're stubborn as a goat";};
@@ -42,5 +35,14 @@ document.getElementById("enter_sign").addEventListener("click", function()) {
            else { horiscope = "Whatever you say...";};
            document.getElementById("your_horiscope").innerHTML = horiscope;
 };
+
+window.onload = function() {
+  //What should we do when the page first loads?
+  skaBandPlease();
+};
+
+document.getElementById("I need a 90s SKA Band Name!").addEventListener("click", skaBandPlease);
+
+document.getElementById("enter_sign").addEventListener("click", horiscope);
 
 
