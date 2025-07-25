@@ -1,7 +1,7 @@
 const verbs = ["skankin", "rankin", "vibin", "jumpin", "leapin", "rockin", "sleepin", "boppin", "slippin", "barkin", 
            "fightin", "yellin", "smellin", "skippin", "screechin"];
 const nouns = ["pickle", "weasel", "zebras", "muskrats", "walruses", "puppies", "kittens", "lions", "tigers", "parrots",
-           "giblets", "skunks", "bunnies", "gummies", "dolphins", "grannies", "lads", "lassies", "lizards"];
+           "giblets", "skunks", "bunnies", "gummies", "dolphins", "grannies", "lads", "lassies", "lizards", "sharks"];
 prev_names = [];
 
 function skaBandPlease() {
