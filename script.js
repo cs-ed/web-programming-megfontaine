@@ -13,9 +13,28 @@ function skaBandPlease() {
            randIndex2 = Math.floor(Math.random() * nouns.length);
            name = verbs[randIndex1] + " " + nouns[randIndex2];
   };
-  prev_names.push(name);
-             
+  prev_names.push(name);        
   document.getElementById("band_name").innerHTML = name;
+};
+
+function horiscope() {
+           let user_sign = document.getElementById("sign").value.toLowerCase();
+           let horiscope;
+           if (user_sign === "capricorn") { horiscope = "You're stubborn as a goat";};
+           else if (user_sign === "aquarius") { horiscope = "Just go with the flow, bro";};
+           else if (user_sign === "pisces") { horiscope = "Something's fishy...";};
+           else if (user_sign === "aries") { horiscope = "Don't act all sheepish";};
+           else if (user_sign === "tarus") { horiscope = "No bull";};
+           else if (user_sign === "gemini") { horiscope = "Twinning!";};
+           else if (user_sign === "cancer") { horiscope = "Why so crabby?";};
+           else if (user_sign === "leo") { horiscope = "You ain't gotta lion to kick it";};
+           else if (user_sign === "virgo") { horiscope = "Heck of a gal";};
+           else if (user_sign === "libra") { horiscope = "Keep it level";};
+           else if (user_sign === "scorpio") { horiscope = "Always check your boots before you put 'em on";};
+           else if (user_sign === "saggitarius") { horiscope = "Bullseye";};
+           else { horiscope = "Whatever you say...";};
+           document.getElementById("your_horiscope").innerHTML = horiscope;
+           
 };
 
 window.onload = function() {
