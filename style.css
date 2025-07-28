@@ -48,11 +48,11 @@ a {
   font-size: 1em;
 }
 
-.mycontainer {
+div.mycontainer {
   width:100%;
   overflow:auto;
 }
-.mycontainer div {
+div.mycontainer div {
   width:33%;
   float:left;
 }
