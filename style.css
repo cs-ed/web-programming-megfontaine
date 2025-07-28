@@ -38,6 +38,7 @@ a {
   color: black;
 }
 
-#bandname {
+#band_name, your_horiscope {
   color: RebeccaPurple;
+  font-size: 2em;
 }
