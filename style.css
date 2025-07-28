@@ -1,37 +1,37 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Noto+Sans">
 
 body {
-  background-color: Ivory;
+  background-color: #FFFFF0;
 }
 
 body {
   font-family: "Noto Sans", sans-serif;
   font-size: 1em;
-  color: DarkSlateGray;
+  color: #2F4F4F;
 }
 
 h1 {
   font-family: Oswald, sans-serif;
-  font-size: 4em;
-  color: DarkSlateBlue;
+  font-size: 3em;
+  color: #483D8B;
 }
 
 h2 {
   font-family: Oswald, sans-serif;
-  font-size: 3em;
-  color: Black;
+  font-size: 2em;
+  color: black;
 }
 
 h3 {
   font-family: Oswald, sans-serif;
-  font-size: 2em;
-  color: Black;
+  font-size: 1em;
+  color: black;
 }
 
 p {
   font-family: Oswald, sans-serif;
   font-size: 1em;
-  color: DarkSlateGray;
+  color: #2F4F4F;
 }
 
 a {
