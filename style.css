@@ -18,7 +18,7 @@ h1 {
 
 h2 {
   font-family: Oswald, sans-serif;
-  font-size: 2em;
+  font-size: 1em;
   color: black;
 }
 
@@ -35,10 +35,16 @@ p {
 }
 
 a {
-  color: black;
+  color: #2F4F4F;
 }
 
-#band_name, your_horiscope {
+#band_name {
   color: #663399;
-  font-size: 2em;
+  font-size: 1em;
 }
+
+#your_horiscope {
+  color: #663399;
+  font-size: 1em;
+}
+
